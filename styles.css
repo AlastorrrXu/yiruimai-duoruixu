@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/photo4.jpg'); /* 使用photo4.jpg作为整个网站背景 */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* 背景图片固定不动 */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(40, 44, 52, 0.8); /* 添加半透明背景使标题可读 */
+    color: white;
+    padding: 20px;
+}
+
+.album {
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* 半透明白色背景 */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.photo-gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.music-player {
+    margin: 30px;
+    background-color: rgba(255, 255, 255, 0.8); /* 半透明白色背景 */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.record {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url('images/photo3.jpg'); /* 使用photo3.jpg作为唱片背景 */
+    background-size: cover;
+    border: 10px solid #282c34;
+    position: relative;
+    cursor: pointer; /* 鼠标悬停时显示为手形 */
+}
+
+.spinning {
+    animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
