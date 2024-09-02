@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('images/photo4.jpg'); /* 使用photo4.jpg作为整个网站背景 */
+    background-image: url('photo4.jpg'); /* 使用photo4.jpg作为整个网站背景 */
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* 背景图片固定不动 */
@@ -48,7 +48,7 @@ header {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-image: url('images/photo3.jpg'); /* 使用photo3.jpg作为唱片背景 */
+    background-image: url('photo3.jpg'); /* 使用photo3.jpg作为唱片背景 */
     background-size: cover;
     border: 10px solid #282c34;
     position: relative;
